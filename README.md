@@ -1,5 +1,7 @@
 # ScriptMidi
 
+![Beethoven](http://i.imgur.com/gWi4GOj.png)
+
 Run scripts from your Midi device.
 
 
@@ -27,7 +29,7 @@ This will expect
 
 1) A number indicating which midi-device you wish to use
 2) Pairs of input, indicating which note, and what command
-3) Lines starting with a # are ignored.
+3) Lines starting with a # are ignored
 
 The note can be indicated with either the note-number on STDIN, or by playing
 the note itself on the MIDI device.
