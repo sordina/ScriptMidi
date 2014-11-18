@@ -7,6 +7,8 @@ Run scripts from your Midi device.
 
 ## Video
 
+A somewhat outdated video of me using a previous version is available on YouTube:
+
 <https://www.youtube.com/watch?v=g356ANC2zp4&list=UUiGSEVP_W5pJXMymVzG09zA>
 
 
@@ -15,7 +17,7 @@ Run scripts from your Midi device.
 I use this for all kinds of reasons.
 
 * A convenient way to trigger system functions during a music performance.
-* A test-case laucher during software developement so that you don't need to change windows to trigger a curl script, or something along those lines.
+* A test-case launcher during software development so that you don't need to change windows to trigger a curl script, or something along those lines.
 * A ghetto sampler - triggering sounds with `afplay` or "vocals" with the `say` command.
 
 More to the point, if you already have a Midi device sitting on your desk unused, why not use it for something?
@@ -57,4 +59,11 @@ The source is available [on github](https://github.com/sordina/ScriptMidi) and c
 
 Here are some pre-build binaries available for various systems below:
 
-<http://sordina.binaries.s3.amazonaws.com/scriptmidi-0.1.0.0-MacOSX-10.9.5-13F34.zip>
+* <http://sordina.binaries.s3.amazonaws.com/scriptmidi-0.1.0.0-MacOSX-10.9.5-13F34.zip>
+* <http://sordina.binaries.s3.amazonaws.com/scriptmidi-0.1.0.1-MacOSX-10.9.5-13F34.zip>
+* <http://sordina.binaries.s3.amazonaws.com/scriptmidi-0.1.0.2-MacOSX-10.9.5-13F34.zip>
+
+
+## Known Bugs
+
+Have to enter "exit" twice if you begin by reading a log, and then STDIN and wish to exit immediately.
