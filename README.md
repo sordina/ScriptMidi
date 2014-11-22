@@ -49,6 +49,13 @@ For example:
 
 		(cat history.txt ; cat) | scriptmidi
 
+Instructions in information is sent through the user to STDERR.
+These instructional lines are always prefixed with `#`, so that
+if you wish to capture this in a log you can simply redirect STDERR to STDOUT
+like so:
+
+		scriptmidi 2>&1 | tee log.txt
+
 
 ## Source
 
