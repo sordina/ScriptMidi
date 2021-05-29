@@ -1,3 +1,4 @@
 dist/
 hugsin
 .cabal-sandbox/
+dist-newstyle/
